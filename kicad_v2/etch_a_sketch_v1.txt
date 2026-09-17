@@ -1,0 +1,6 @@
+Plotted to '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad alt/Etch_a_Sketch_cad-F_Cu.gbr'.
+Plotted to '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad alt/Etch_a_Sketch_cad-B_Cu.gbr'.
+Plotted to '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad alt/Etch_a_Sketch_cad-Edge_Cuts.gbr'.
+Created Gerber job file '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad alt/Etch_a_Sketch_cad-job.gbrjob'.
+Info: Done.
+Info: Done.

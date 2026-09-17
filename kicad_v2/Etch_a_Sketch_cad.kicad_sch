@@ -1,0 +1,2875 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ec181289-f64d-4c68-a4ce-7c7fa9c34a29")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 19.05 73.66)
+		(end 53.34 120.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1251d9cf-ece1-471a-ad5b-11f9c4fe8709)
+	)
+	(rectangle
+		(start 19.05 19.05)
+		(end 53.34 66.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 222c0049-48b1-4900-a74d-d209196d7850)
+	)
+	(rectangle
+		(start 83.82 144.78)
+		(end 133.35 160.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 42f78db0-92ca-44d2-9659-90145060d84f)
+	)
+	(rectangle
+		(start 95.25 20.32)
+		(end 134.62 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5c99827f-8e01-42a2-8c47-c9e9b7d0bac5)
+	)
+	(rectangle
+		(start 161.29 20.32)
+		(end 205.74 82.55)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8b0dc6a6-1126-41ad-9170-6b5b09d2657d)
+	)
+	(rectangle
+		(start 162.56 92.71)
+		(end 207.01 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fcdad0ad-40ff-4a54-8535-59f4e72ca938)
+	)
+	(text "MPU"
+		(exclude_from_sim no)
+		(at 21.59 71.882 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "302b5962-5e84-4964-aff2-6ffea84e52b2")
+	)
+	(text "Controller y axis"
+		(exclude_from_sim no)
+		(at 170.688 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6e9d2339-4c05-4658-8ea9-5855d4c2993d")
+	)
+	(text "Push Button reset"
+		(exclude_from_sim no)
+		(at 87.63 143.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "7a8bc092-1f5e-45b8-8a9f-b27554ae6c8d")
+	)
+	(text "OLED"
+		(exclude_from_sim no)
+		(at 21.59 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "c1d05642-d651-4c3c-a941-47347084bcc2")
+	)
+	(text "Controller x axis"
+		(exclude_from_sim no)
+		(at 169.418 18.796 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "dc48fdf8-eed4-46d5-a375-3e8e6ab4eaf4")
+	)
+	(text "PRO MICRO"
+		(exclude_from_sim no)
+		(at 100.33 18.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f8de5dff-b73b-411c-8d89-3e54e99a1b50")
+	)
+	(junction
+		(at 102.87 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c4c0b6b-6f16-42cc-8171-cc2fa3dd83c5")
+	)
+	(junction
+		(at 140.97 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "351b6028-b46c-4102-9874-c2cf59ffd7ce")
+	)
+	(junction
+		(at 148.59 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62996df4-fce6-44ef-9354-1afa56dac5b6")
+	)
+	(junction
+		(at 87.63 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "846517ca-f72f-4c90-bd5e-d3b897842276")
+	)
+	(junction
+		(at 140.97 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87ea4d56-240c-4d70-ae5d-c0db96e51606")
+	)
+	(junction
+		(at 58.42 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a01af40e-7410-4e41-ba9a-69be5ca284a8")
+	)
+	(junction
+		(at 66.04 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dab5bd8c-250d-44e9-a659-a33da7c08976")
+	)
+	(junction
+		(at 77.47 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfe7eea2-ac6b-40a9-83c7-9f35a2d7c5de")
+	)
+	(junction
+		(at 140.97 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3186963-c115-4598-84d1-1f47b5c171ec")
+	)
+	(wire
+		(pts
+			(xy 158.75 57.15) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0594ffb1-3d96-4cf0-a353-e0f69424bd81")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 140.97 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9eaf70-4c8d-45e1-88ff-9197debaf0dc")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.23) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c352024-0509-4fe5-8cca-1701954c8f5c")
+	)
+	(wire
+		(pts
+			(xy 140.97 29.21) (xy 165.1 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282a7661-8321-490e-9616-10c4420e3f41")
+	)
+	(wire
+		(pts
+			(xy 99.06 128.27) (xy 99.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c55d6a-e173-4cb9-8c21-604b5870d5d2")
+	)
+	(wire
+		(pts
+			(xy 127 64.77) (xy 158.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce2524f-e39d-4c63-8fd8-8e2264526f74")
+	)
+	(wire
+		(pts
+			(xy 46.99 52.07) (xy 87.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e935884-38da-450a-80c2-117230d13b0e")
+	)
+	(wire
+		(pts
+			(xy 58.42 27.94) (xy 100.33 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3091f9a7-6629-4cf8-a913-c383faa292d0")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 77.47 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3922459d-023c-4b54-a486-d0135aed2248")
+	)
+	(wire
+		(pts
+			(xy 87.63 52.07) (xy 87.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5d2dac-858d-4635-b20a-f9e865c7d8c7")
+	)
+	(wire
+		(pts
+			(xy 101.6 46.99) (xy 87.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8ea8a0-c738-42d6-818d-a8c7fd62d68b")
+	)
+	(wire
+		(pts
+			(xy 156.21 74.93) (xy 156.21 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a6a5ec-e3b4-4dd1-906a-2d8633b912b2")
+	)
+	(wire
+		(pts
+			(xy 140.97 68.58) (xy 140.97 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557ada2f-fc8d-40e4-ace1-332412cba6a7")
+	)
+	(wire
+		(pts
+			(xy 102.87 128.27) (xy 102.87 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbb0124-8b64-4275-92cb-3934291041db")
+	)
+	(wire
+		(pts
+			(xy 66.04 116.84) (xy 66.04 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608cdbd8-647f-4fe9-83e7-5142ea65aeb2")
+	)
+	(wire
+		(pts
+			(xy 46.99 62.23) (xy 77.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665499ee-76a7-4926-964f-60ed542e4a70")
+	)
+	(wire
+		(pts
+			(xy 114.3 106.68) (xy 114.3 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f7a7f0-10da-4aa1-ab05-08d02335f818")
+	)
+	(wire
+		(pts
+			(xy 127 54.61) (xy 158.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af6fd05-ea2f-496d-9da9-8e12b5de342d")
+	)
+	(wire
+		(pts
+			(xy 58.42 105.41) (xy 58.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70608fc0-4231-4729-a20a-d30bc090ad4f")
+	)
+	(wire
+		(pts
+			(xy 87.63 46.99) (xy 87.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7544e27b-7cca-48fa-b632-e81f59273fd2")
+	)
+	(wire
+		(pts
+			(xy 99.06 128.27) (xy 102.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78240717-fa76-422a-82ed-bbc46d4df223")
+	)
+	(wire
+		(pts
+			(xy 46.99 105.41) (xy 58.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a016fc6-fd22-49a9-87d4-b75147da6813")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fbcf36e-69b5-4bd8-86b2-21b2dad39180")
+	)
+	(wire
+		(pts
+			(xy 125.73 137.16) (xy 125.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a45606d-db08-44c1-b700-7c51f58ec633")
+	)
+	(wire
+		(pts
+			(xy 46.99 116.84) (xy 66.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5d5836-867b-4f8a-b048-8d7593d79d7e")
+	)
+	(wire
+		(pts
+			(xy 119.38 140.97) (xy 119.38 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90713ac6-df64-4bf0-bdb5-b793f223e185")
+	)
+	(wire
+		(pts
+			(xy 127 85.09) (xy 153.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959c250a-3ff7-42b6-b66e-1e4aa5a30279")
+	)
+	(wire
+		(pts
+			(xy 166.37 140.97) (xy 140.97 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9a02f2-5c79-47b1-a0b5-05f942d4cf9d")
+	)
+	(wire
+		(pts
+			(xy 46.99 92.71) (xy 87.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f80016-04b4-4a37-88b5-038eb93ebb79")
+	)
+	(wire
+		(pts
+			(xy 158.75 64.77) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cc0ac2-685a-4dc8-b057-a7129f041949")
+	)
+	(wire
+		(pts
+			(xy 127 74.93) (xy 156.21 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47f1c42-6e64-464c-8b09-43072871bbcd")
+	)
+	(wire
+		(pts
+			(xy 148.59 40.64) (xy 165.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90c04d0-2760-4daa-896b-4a5b05f25753")
+	)
+	(wire
+		(pts
+			(xy 102.87 128.27) (xy 140.97 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf6f6b9-5039-4f1f-b15d-1663c60622c4")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 140.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbed36e-07f9-42f0-8f8e-ef36512f4ec8")
+	)
+	(wire
+		(pts
+			(xy 127 95.25) (xy 148.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e67f76-874a-4d6b-a39e-19ba359c6bb5")
+	)
+	(wire
+		(pts
+			(xy 46.99 27.94) (xy 58.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb639624-64ab-4594-835b-8c6ec73cc08c")
+	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 148.59 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3bc7e0-a3c7-44e8-8be4-d3bc6d7b4b02")
+	)
+	(wire
+		(pts
+			(xy 114.3 140.97) (xy 119.38 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6f0d72-797c-4090-b299-598214f56ca6")
+	)
+	(wire
+		(pts
+			(xy 46.99 82.55) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e910374b-2476-489b-9fc2-10e3acffc90b")
+	)
+	(wire
+		(pts
+			(xy 46.99 38.1) (xy 66.04 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac11702-782c-4de2-baad-2ffbe68af039")
+	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 148.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed632cfa-0f9a-4d5b-9aba-d72bc583bdeb")
+	)
+	(wire
+		(pts
+			(xy 158.75 54.61) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27f18aa-ac63-4973-b968-84d244793d2f")
+	)
+	(wire
+		(pts
+			(xy 158.75 80.01) (xy 165.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5485236-5fbd-413e-afb3-99125ce66fa0")
+	)
+	(wire
+		(pts
+			(xy 156.21 129.54) (xy 166.37 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55f4da9-dd53-49a8-9d90-63902990e879")
+	)
+	(wire
+		(pts
+			(xy 66.04 38.1) (xy 100.33 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc34c529-553c-4b90-844e-0d0e7bf299c9")
+	)
+	(wire
+		(pts
+			(xy 148.59 113.03) (xy 166.37 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe514942-6665-4f11-a030-a28cca36a1c7")
+	)
+	(wire
+		(pts
+			(xy 153.67 85.09) (xy 153.67 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6b5e9f-ee11-4eb5-b312-fafdd50475ec")
+	)
+	(wire
+		(pts
+			(xy 140.97 68.58) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea5ae8e-e6e0-47da-a67c-d1438d74f7b2")
+	)
+	(wire
+		(pts
+			(xy 140.97 128.27) (xy 140.97 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2a7c8e-833b-4eb9-b051-5ee935310236")
+	)
+	(wire
+		(pts
+			(xy 77.47 137.16) (xy 125.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff50f7e3-3ab4-4a23-b0f2-70e7f053a437")
+	)
+	(wire
+		(pts
+			(xy 153.67 152.4) (xy 166.37 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc1ba75-ad8e-42fc-af6e-fec1d460363f")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00e8e247-7123-4f0e-888b-29f808867a35")
+		(property "Reference" "MPU(VCC)1"
+			(at 43.18 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1d175b5-7ff3-467e-bc1a-015d5a5ba93b")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "MPU(VCC)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 124.46 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e993f42-204e-46d0-bfb5-261ac6947218")
+		(property "Reference" "D7(Cy2)1"
+			(at 123.19 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 123.19 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d564112c-7de5-44fe-a992-3de134335836")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "D7(Cy2)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 104.14 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "12d799eb-8583-48c2-9710-7fa51a5a5f2f")
+		(property "Reference" "GND2"
+			(at 102.362 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 96.774 51.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 104.14 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 104.14 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea4c235d-9ad2-486b-91ce-93c81bcbfe90")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 124.46 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d0ddc26-286f-44a0-99db-2490a7769cbd")
+		(property "Reference" "D8(Switch)1"
+			(at 123.19 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 123.19 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "035a954a-3b85-427a-828a-a7494645f57f")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "D8(Switch)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d74f15d-7ad9-4475-8ae3-b85f7e0542f0")
+		(property "Reference" "Cx(GND)1"
+			(at 167.64 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 167.64 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e08a726c-ef85-4931-ba14-f0861908bace")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "Cx(GND)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21a424d2-89a0-439f-be95-adf49f02af8d")
+		(property "Reference" "Cy(2)1"
+			(at 168.91 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 168.91 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 166.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fc74ab2-f087-4ac5-aa6d-37fe00c5c3a2")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "Cy(2)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 124.46 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29f03f8a-da94-430d-8d9b-fb95ad767ffc")
+		(property "Reference" "D4(Cx1)1"
+			(at 123.19 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 123.19 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f1e82df-9bea-4ee1-a5d3-0d63bf5e55cc")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "D4(Cx1)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 119.38 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d8957ac-68f5-4d99-89e5-27ca419bcf3d")
+		(property "Reference" "PUSH_GND1"
+			(at 120.65 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 126.238 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c66161f-02b2-4520-9c39-a920f588dfa3")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "PUSH_GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40a6fbce-f5f9-4cfb-920a-5205a4955f14")
+		(property "Reference" "MPU(SDA)1"
+			(at 43.18 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "280946af-1e1d-4549-a78a-6e8eed16c739")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "MPU(SDA)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46551fbd-fa77-474f-b75e-9f7b49dec58f")
+		(property "Reference" "Cy(GND-Switch)1"
+			(at 168.91 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 168.91 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2a27a2c-d1fd-4cb6-8f37-9fa2aac8c5e4")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "Cy(GND-Switch)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46bb500c-4d0c-4a10-a6a9-ff0ca63a866c")
+		(property "Reference" "Cx(GND-Switch)1"
+			(at 167.64 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 167.64 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 165.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "568c533c-3c02-4082-81f5-f81fcecb18e4")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "Cx(GND-Switch)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 124.46 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ad3ce9b-d897-440d-9b14-bca15221dd97")
+		(property "Reference" "D5(Cx2)1"
+			(at 123.19 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 123.19 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f0749da-1f26-44e4-bfb6-4a77c970b946")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "D5(Cx2)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 125.73 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "595851c0-073a-4d38-abc3-8fc969d50406")
+		(property "Reference" "VCC1"
+			(at 124.46 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 116.586 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90bbf713-ed77-4bbd-9bd1-7bf337e41b13")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "VCC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a922a42-dc65-45c9-9f93-23a6b32a82e0")
+		(property "Reference" "PUSH_RST1"
+			(at 100.33 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 105.918 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83099070-a406-42a4-9df4-2faff8644357")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "PUSH_RST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ccc90db-998b-46a3-8963-b108f154b211")
+		(property "Reference" "Cx(Switch)1"
+			(at 167.64 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 167.64 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c56f6878-741a-468e-a33f-6f87ccb2a7c1")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "Cx(Switch)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64301cb6-4027-4906-80a5-dc6a450f1434")
+		(property "Reference" "Cx(1)1"
+			(at 167.64 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 167.64 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcf09d24-d664-4df5-b494-5be4cce052d5")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "Cx(1)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64dfd038-1b22-480a-8335-02187054b9b0")
+		(property "Reference" "MPU(GND)1"
+			(at 43.18 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 44.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ee5a277-e9cd-4d61-8d9c-d7ed3cd9eb14")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "MPU(GND)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "710f10ec-643a-4b05-bc7a-487b90042ecd")
+		(property "Reference" "Cx(2)1"
+			(at 167.64 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 167.64 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36f609f8-6b41-4f57-b641-9d2bb32ca76a")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "Cx(2)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78ce359f-0164-4b3d-9089-25d329d88911")
+		(property "Reference" "Cy(Switch)1"
+			(at 168.91 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 168.91 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56e8a734-b3c3-412e-8b57-378c9cc93b08")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "Cy(Switch)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89c7f9a0-90e3-4567-963b-beea940a6375")
+		(property "Reference" "OLED(GND)1"
+			(at 43.18 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a223231e-cb6e-4224-afa9-249eb197f6bc")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "OLED(GND)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 124.46 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb54f2e-64d6-436e-9199-f2debca035b0")
+		(property "Reference" "D6(Cy1)1"
+			(at 123.19 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 123.19 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37a26710-9be1-4bb4-b34c-59b8c52d7cb8")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "D6(Cy1)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "921c07c1-43ca-41cf-9dbb-1665fd715be1")
+		(property "Reference" "OLED(VDD)1"
+			(at 43.18 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ff51b4a-f3c8-4ab6-9499-9b433a8ae292")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "OLED(VDD)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "924ca569-e739-498b-953c-a6026abd5101")
+		(property "Reference" "Cy(GND)1"
+			(at 168.91 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 168.91 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 166.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09b8bcc8-c43d-4c96-92f2-e633c92b63b5")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "Cy(GND)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 166.37 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "967a2bc9-88d9-4aa7-bbbe-b31ab797aa16")
+		(property "Reference" "Cy(1)1"
+			(at 168.91 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 168.91 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 166.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec8b53eb-1596-4a94-8a18-1635a565531f")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "Cy(1)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acc049fc-7f06-4bee-82e7-c99d91ec6049")
+		(property "Reference" "OLED(SCK)1"
+			(at 43.18 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d0b094b-b1f9-4de5-824e-17c4479f2080")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "OLED(SCK)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 114.3 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6ed8b7d-6bec-43f5-828f-972799c8c452")
+		(property "Reference" "RST1"
+			(at 113.03 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 107.442 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fd3f300-12b8-43b5-8317-ff47ee652257")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "RST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 102.87 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf58cd9a-0126-4872-b150-c4a67f84933d")
+		(property "Reference" "D2(SDA)1"
+			(at 106.68 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 106.68 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "593f49ee-f993-437b-ac2e-2cd44d89aebc")
+		)
+		(instances
+			(project ""
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "D2(SDA)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 102.87 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcf9c3ab-b34b-4fd3-a358-c9ac08d73583")
+		(property "Reference" "D3(SCL/SDK)1"
+			(at 106.68 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 106.68 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33a10dc2-26d4-4b48-90c1-2f0f13b291d4")
+		)
+		(instances
+			(project ""
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "D3(SCL/SDK)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e85f229b-0f5f-4a34-b166-9af10bc796f7")
+		(property "Reference" "MPU(SCL)1"
+			(at 43.18 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9d31cb1-82c8-45ca-9dc9-4f4cf2629e55")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "MPU(SCL)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4e372f4-200a-46ab-89e6-86f7b0e36768")
+		(property "Reference" "OLED(SDA)1"
+			(at 43.18 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df3e1e68-fd8e-4f04-838d-e3bfd175804c")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "OLED(SDA)1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 102.87 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "facc9099-783e-4525-8e15-654ff0523f7a")
+		(property "Reference" "GND1"
+			(at 101.6 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 96.012 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b829ceae-7f2f-4a6d-8357-8e11a0e4ec0c")
+		)
+		(instances
+			(project "Etch_a_Sketch_cad"
+				(path "/ec181289-f64d-4c68-a4ce-7c7fa9c34a29"
+					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

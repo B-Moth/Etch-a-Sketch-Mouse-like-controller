@@ -1,0 +1,11 @@
+Plotted to '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad/Etch_a_Sketch_cad-F_Cu.gbr'.
+Plotted to '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad/Etch_a_Sketch_cad-B_Cu.gbr'.
+Plotted to '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad/Etch_a_Sketch_cad-F_Paste.gbr'.
+Plotted to '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad/Etch_a_Sketch_cad-B_Paste.gbr'.
+Plotted to '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad/Etch_a_Sketch_cad-F_Silkscreen.gbr'.
+Plotted to '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad/Etch_a_Sketch_cad-B_Silkscreen.gbr'.
+Plotted to '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad/Etch_a_Sketch_cad-F_Mask.gbr'.
+Plotted to '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad/Etch_a_Sketch_cad-B_Mask.gbr'.
+Created Gerber job file '/Users/lucas/Documents/42/ft_transcendence/Controller/kicad/Etch_a_Sketch_cad-job.gbrjob'.
+Info: Done.
+Info: Done.
